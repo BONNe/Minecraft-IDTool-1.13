@@ -11,4 +11,4 @@ I hope you can enyoe this IDTool with the own IDList to make some things a bit e
 ## FAQ: ##
 
 Where can i see which Block has which ID?
--> https://playuniverse.org/Minecraft/BlockIDs
+-> https://playuniverse.org/Minecraft/BlockIDs (Comming soon)
