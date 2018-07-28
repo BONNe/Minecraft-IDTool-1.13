@@ -57,6 +57,7 @@ public class IDTools {
 		IdList.put(6.3, Material.JUNGLE_SAPLING);
 		IdList.put(6.4, Material.ACACIA_SAPLING);
 		IdList.put(6.5, Material.DARK_OAK_SAPLING);
+		IdList.put(7.0, Material.BEDROCK);
 		IdList.put(8.0, Material.WATER);
 		IdList.put(9.0, Material.WATER);
 		IdList.put(10.0, Material.LAVA);
