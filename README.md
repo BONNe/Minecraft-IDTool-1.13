@@ -17,4 +17,4 @@ Me thinking: "I could make a Converter... Should i make one? Just see it in the 
 ## FAQ: ##
 
 Where can i see which Block has which ID?
--> https://playuniverse.org/Minecraft/BlockIDs (Comming soon)
+-> https://playuniverse.org/blockids.html (Comming soon)
