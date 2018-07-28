@@ -5,7 +5,7 @@ I hope you can enyoe this IDTool with the own IDList to make some things a bit e
 ## How to use: ##
 1. Copy the Class into your Plugin
 2. Intialize the Class in your onEnable
-3. Make sure you set the "api-version 1.13" in your plugin.yml
+3. Make sure you set "api-version" to "1.13" in your plugin.yml
 4. Use all the Stuff of the Class
 
 ## FAQ: ##
