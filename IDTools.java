@@ -1,4 +1,4 @@
-package SNPHCore.dev.StevenLPHD.Utils;
+package YourPackage;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -20,12 +20,17 @@ import org.bukkit.block.data.BlockData;
 
 public class IDTools {
 	
+	// The List for the IDs and SubIDs to get the Material for each ID and subID
 	private Map<Double, Material> IdList = new HashMap<>();
 	
+	// Intialization for the IDList
 	public IDTools() {
 		
+		// For these guys who Intialize the Class more than one
 		IdList.clear();
 		
+		// Just added all the Materials with a ID
+		// If you want, you can edit the IDs and subIDs
 		IdList.put(0.0, Material.AIR);
 		IdList.put(0.1, Material.CAVE_AIR);
 		IdList.put(1.0, Material.STONE);
@@ -581,6 +586,7 @@ public class IDTools {
 	
 	}
 	
+	// Now we come to the BlockData Methods
 	public BlockData convertToBlockData(Integer Id, Integer subId) {
 		
 		Material mat = getMaterial(Id, subId);
@@ -637,6 +643,7 @@ public class IDTools {
 		
 	}
 	
+	// Just if you want to get the Name of the Block Material
 	public String getName(Integer Id, Integer subId) {
 		
 		Material mat = getMaterial(Id, subId);
@@ -693,6 +700,7 @@ public class IDTools {
 		
 	}
 	
+	// And the important getter for the Materials
 	public Material getMaterial(Integer Id, Integer subId) {
 		
 		if(subId == null) {
