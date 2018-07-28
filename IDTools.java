@@ -43,6 +43,7 @@ public class IDTools {
 		IdList.put(2.0, Material.GRASS_BLOCK);
 		IdList.put(3.0, Material.DIRT);
 		IdList.put(3.1, Material.COARSE_DIRT);
+		IdList.put(3.2, Material.PODZOL);
 		IdList.put(4.0, Material.COBBLESTONE);
 		IdList.put(5.0, Material.OAK_PLANKS);
 		IdList.put(5.1, Material.SPRUCE_PLANKS);
