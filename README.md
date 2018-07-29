@@ -5,6 +5,7 @@ I hope you can enyoe this IDTool with the own IDList to make some things a bit e
 ## IMPORTANT ##
 - This isn't the original Minecraft 1.12 ID-List just with the 1.13 Blocks, the following list is created on my own so the IDs aren't correctly the same! Thats the Reason why i will create a "ID Searching Page"
 - If you want to convert Schematics from 1.12 to 1.13, you need to create a converter from the old IDs to this IDs
+- This ID-List is only a List of Materials, not of whole blocks, so if you want that the Block looks to a other side, then edit the BlockData!
 
 Me thinking: "I could make a Converter... Should i make one? Just see it in the next days :P"
 
