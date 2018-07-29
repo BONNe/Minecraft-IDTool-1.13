@@ -7,8 +7,6 @@ I hope you can enyoe this IDTool with the own IDList to make some things a bit e
 - If you want to convert Schematics from 1.12 to 1.13, you need to create a converter from the old IDs to this IDs
 - This ID-List is only a List of Materials, not of whole blocks, so if you want that the Block looks to a other side, then edit the BlockData!
 
-Me thinking: "I could make a Converter... Should i make one? Just see it in the next days :P"
-
 ## How to use: ##
 1. Copy the Class into your Plugin
 2. Intialize the Class in your Main Class
