@@ -817,5 +817,45 @@ public class IDTools {
 		return null;
 		
 	}
+	
+	public double getID(Material material) {
+		
+		if(IdList.containsValue(material)) {
+			return idCheck(material);
+		}
+		
+		return 0.0;
+		
+	}
+	
+	public double getID(String materialName) {
+		
+		Material mat = Material.getMaterial(materialName);
+		
+		if(IdList.containsValue(mat)) {
+			return idCheck(mat);
+		}
+		
+		return 0.0;
+		
+	}
+	
+	private double idCheck(Material mat) {
+		
+		Double[] db = IdList.keySet().toArray(new Double[0]);
+		
+		for(double d : db) {
+			
+			if(mat == IdList.get(d)) {
+				
+				return d;
+				
+			}
+			
+		}
+		
+		return 0.0;
+		
+	}
 
 }
