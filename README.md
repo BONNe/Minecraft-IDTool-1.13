@@ -13,7 +13,6 @@ I hope you can enyoe this IDTool with the own IDList to make some things a bit e
 3. Make sure you set "api-version" to "1.13" in your plugin.yml
 4. Use all the Stuff of the Class
 
-## FAQ: ##
-
-Where can i see which Block has which ID?
--> https://playuniverse.org/blockids.html (in work)
+## UPDATES ##
+This Resource will not receive any Updates!
+But i hope you enyoe it anyway.
